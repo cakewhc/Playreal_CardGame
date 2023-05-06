@@ -7,6 +7,8 @@ export default function Card(props) {
   return (
     <div
       id="Card"
+      className="cardIn"
+      style={{ animationDelay: `${props.index / 2}s` }}
       onClick={() => {
         console.log(props.index);
         props.cardOpen(props.index);
