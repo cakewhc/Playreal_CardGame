@@ -98,6 +98,7 @@ export default function GamePage(props) {
             open={open}
             select={select}
             matchArr={matchArr}
+            mode={mode}
             cardOpen={(num) => {
               if (select === -1) {
                 setSelect(num);
@@ -106,7 +107,11 @@ export default function GamePage(props) {
           ></Card>
         ))}
       </div>
-      <div id="cardDesc" className="cardDesc Iansui" onChange={() => {}}>
+      <div
+        id="cardDesc"
+        className={`cardDesc Iansui ${mode} ${props.language}`}
+        onChange={() => {}}
+      >
         {cardDesc}
       </div>
     </div>

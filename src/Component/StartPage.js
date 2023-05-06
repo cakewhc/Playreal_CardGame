@@ -24,7 +24,7 @@ export default function StartPage(props) {
           {content.StartPage.lang.en}
         </div>
       </div>
-      <div className="title Iansui">
+      <div className={`title Iansui ${props.language}`}>
         {content.StartPage.title[props.language]}
       </div>
 
