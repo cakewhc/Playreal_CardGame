@@ -117,8 +117,7 @@
     justify-content: space-around;
     align-content: space-around;
     margin: 0px auto;
-    top: 50vh;
-    transform: translate(0px, -50%);
+    margin-top: 20vh;
     &.easy{
       width: 54vmin;
       height: 54vmin;
@@ -130,6 +129,15 @@
     &.hard{
       width: 76vmin;
       height: 76vmin;
+    }
+  }
+  .cardDesc {
+    position: relative;
+    margin: 1vh auto;
+    width:80vw;
+    &.descShow{
+      animation: descShow 1s 1;
+    animation-fill-mode: forwards;
     }
   }
 }
@@ -265,10 +273,10 @@
     margin-top: 100px;
     font-size: 50px;
     animation: diffShow 4s 1;
-    div:hover {
+    &:hover {
       cursor: pointer;
       color: #618255;
-      margin-top:-10px
+      margin-top:90px
     }
   }
 }
@@ -289,6 +297,15 @@
     opacity: 0;
   }
   50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes descShow {
+  0% {
     opacity: 0;
   }
   100% {

@@ -10,6 +10,8 @@ export default function GamePage(props) {
   const [select, setSelect] = useState(-1);
   const [open, setOpen] = useState(-1);
 
+  const [cardDesc, setCardDesc] = useState('');
+
   const [finish, setFinish] = useState(false);
 
   let mode = props.diff === 6 ? 'easy' : props.diff === 12 ? 'norm' : 'hard';
@@ -22,6 +24,16 @@ export default function GamePage(props) {
     }
     return arr;
   }
+
+  useEffect(() => {
+    let cardDescDiv = document.querySelector('#cardDesc');
+    cardDescDiv.addEventListener('DOMSubtreeModified', () => {
+      cardDescDiv.classList.add('descShow');
+      setTimeout(() => {
+        cardDescDiv.classList.remove('descShow');
+      }, 500);
+    });
+  }, []);
 
   useEffect(() => {
     let arr = [];
@@ -43,6 +55,9 @@ export default function GamePage(props) {
         let arr = matchArr;
         arr.push(cardArr[open]);
         setMatchArr(arr);
+        setCardDesc(
+          content.GamePage.cards[`card${cardArr[select]}`][props.language]
+        );
         setFinish(finish + 1);
         setOpen(-1);
         setSelect(-1);
@@ -64,10 +79,11 @@ export default function GamePage(props) {
         setMatchArr([]);
         setOpen(-1);
         setSelect(-1);
+        setCardDesc('');
 
         props.showEnd();
       }
-    }, [1500]);
+    }, [2500]);
   }, [finish, props.diff]);
 
   return (
@@ -89,6 +105,9 @@ export default function GamePage(props) {
             }}
           ></Card>
         ))}
+      </div>
+      <div id="cardDesc" className="cardDesc Iansui" onChange={() => {}}>
+        {cardDesc}
       </div>
     </div>
   );

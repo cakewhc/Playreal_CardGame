@@ -13,6 +13,81 @@
     "intro": { "tc": "每次翻開兩張卡片，如果圖案相同則配對成功，卡片會保持翻開的狀態。如果圖案不同，牌面將會翻轉朝下，等待下一次翻牌。在翻牌次數用光前，翻開所有的牌吧！", "en": "Turn over two cards each time, if the patterns are the same, the pairing is successful, and the cards will remain open. If the pattern is different, the card will be turned face down. Turn over all the cards before you run out of flips!"},
     "game": { "tc": "遊戲開始", "en": "Start Game" }
   },
+  "GamePage":{
+    "cards": { 
+      "card1": { 
+        "tc": "雛菊：雛菊的花期頗長，從3月份可以開到6至7月份。人們常常以雛菊花瓣來占卜愛情。雛菊花語繁多，其中有「暗戀」、「快樂」、「離別」和「我暗戀你，那，你愛不愛我」。", 
+        "en": "Daisy: The flowering period of daisy is quite long, from March to July. Daisy petals are often used for divination of love. Daisy has many flower languages, including 'secret love', 'happiness', 'parting' and 'I have a crush on you, then, do you love me or not'." 
+      },
+      "card2": { 
+        "tc": "彼岸花：花期為秋季8至9月。紅色別名曼珠沙華，白色別名曼陀羅華。因為彼岸花花葉永不相見，花語為「悲傷的回憶」，「跨越生死的愛」。", 
+        "en": "Bana: The flowering period is from August to September in autumn. The red alias is Manzhushahua, and the white alias is Mandalahuahua. Because the flowers and leaves of the other shore flower will never meet, the flower language is 'sad memory' and 'love that transcends life and death'." 
+      },
+      "card3": { 
+        "tc": "風蠟花：風蠟花在澳大利亞6至10月是盛花期，在北半球地區花芽在9至10月出現，開至翌年春天。花語是「愛情的忠貞不渝」，「純潔活潑」，「珍貴長情」。", 
+        "en": "Chamelaucium Uncinatum: Chamelaucium uncinatum blooms from June to October in Australia. In the northern hemisphere, flower buds appear from September to October and bloom until the next spring. The language of flowers is 'loyalty of love', 'pure and lively', 'precious and long-lasting love'." 
+      },
+      "card4": { 
+        "tc": "木棉花：每年花期約在每年3至4月，木棉花是南方的特產。白色木棉花的花語是「珍惜眼前的幸福」，紅色則是「愛情紅紅火火」。", 
+        "en": "Kapok: The annual flowering period is about March to April each year. Kapok is a specialty product in the south. The flower language of white kapok is 'cherish the happiness in front of you', while red means 'love is booming'." 
+      },
+      "card5": { 
+        "tc": "百葉薔薇：百葉薔薇全年開花。產於格拉斯的百葉玫瑰曾是整個法國香水業的基礎。花語為「美麗」、「濃郁」、「熱情」、「香郁」。", 
+        "en": "Rosa Centifolia: Rosa Centifolia blooms year-round. Rosa Centifolia, produced in Grasse, was once the foundation of the entire French perfume industry. The flower language is 'beautiful', 'rich', 'passionate' and 'fragrant'." 
+      },
+      "card6": { 
+        "tc": "繡球花：繡球花花期一般為5月至6月，繡球花在酸性土壤呈藍色，鹼性土壤呈粉色。純白繡球花不受土壤影響。繡球花是由一朵朵小花聚集而成，有著「家族」、「友愛」、「團聚」的花語。", 
+        "en": "Hydrangea: The flowering period of hydrangea is generally from May to June. Hydrangea is blue in acidic soil and pink in alkaline soil. Pure white hydrangeas are unaffected by soil. Hydrangea is made up of small flowers, with the flower language of 'family', 'friendship' and 'reunion'." 
+      },
+      "card7": { 
+        "tc": "櫻花：櫻花是日本的國花，每年三、四月開始由南至北盛開，綻放主要受到天氣與氣溫影響。櫻花的花語是「幸福」、「熱烈」、「純潔」、「高尚」、「淡薄」。", 
+        "en": "Cherry blossoms: Cherry blossoms are the national flower of Japan. They bloom from south to north in March and April every year. The blooming is mainly affected by weather and temperature. The flower language of cherry blossoms is 'happiness', 'enthusiastic', 'pure', 'noble' and 'indifferent'." 
+      },
+      "card8": { 
+        "tc": "滿天星：每年的5至8月是滿天星的花期。滿天星花語是「清純」、「關懷」、「思戀」、「配角」、「真爱」、「純潔的心靈」、「夢境」、「甘做配角的愛」。", 
+        "en": "Baby's Breath: May to August is the flowering period of Baby's Breath. The flower language of Gypsophila is 'pure', 'caring', 'longing for love', 'supporting role', 'true love', 'pure heart', 'dream', 'love willing to be a supporting role'." 
+      },
+      "card9": { 
+        "tc": "西洋甘菊：花期為3至5月。它是一種很強的植物，這意味着不屈不撓的精神，很難倒下，因此花語是「苦難生活的力量」、「在逆境中茁壯成長」。", 
+        "en": "Chamomile: The flowering period is from March to May. It is a very strong plant, which means an indomitable spirit that is hard to fall down, so the flower language is 'the power of suffering life' and 'thriving in adversity'." 
+      },
+      "card10": { 
+        "tc": "茴香花：花期為3至4月。茴香花除了外表出眾外，也可當作調酒、料理用、藥用或者插花花材。多才多藝的她因此得到「才色兼備」的花語。", 
+        "en": "Fennel flower: The flowering period is from March to April. In addition to its outstanding appearance, fennel flowers can also be used for bartending, cooking, medicine or flower arrangement. Because of her versatility, she got the flower language of 'both talent and color'." 
+      },
+      "card11": { 
+        "tc": "薰衣草：花期為6至8月。薰衣草有著「我在等你」、「期待」、「沈默」、「清潔」、「疑惑」、「優美」、「幸福到來」、「寬恕的愛」等花語。", 
+        "en": "Lavender: The flowering period is from June to August. Lavender has flower languages such as 'I'm waiting for you', 'expectation', 'silence', 'cleaning', 'doubt', 'beauty', 'happiness comes', and 'forgiving love'." 
+      },
+      "card12": { 
+        "tc": "牡丹花：牡丹花的花期是4至5月。牡丹的花語一般是「圓滿」、「濃情」、「富貴」、「吉祥」、「幸福」、「雍容華貴」、「國色天香」，但不同花色的牡丹，其花語亦有所不同。", 
+        "en": "Peony: The flowering period of peony is from April to May. The flower language of peonies is generally 'fulfillment', 'passion', 'wealth', 'auspiciousness', 'happiness', 'elegance and luxury', and 'national beauty and heavenly fragrance'. However, different colors of peonies have different flower language." 
+      },
+      "card13": { 
+        "tc": "扶桑花：台灣全年都是扶桑花的花期，盛花期在5至10月。扶桑花的外表熱情豪放，卻有一個細緻的花心，就如同熱情外表下的纖細之心，花語是「新鮮的戀情」，「微妙的美」。", 
+        "en": "Chinese Hibiscus: In Taiwan, hibiscus blooms all year round, and the flowering period is from May to October. The appearance of hibiscus is passionate and unrestrained, but it has a delicate flower heart, just like the slender heart under the passionate appearance. The flower language is 'fresh love' and 'delicate beauty'." 
+      },
+      "card14": { 
+        "tc": "黃玫瑰：花期5至6月。對於友情，黃玫瑰代表「純潔的友誼」和「美好的祝福」。對於愛情則是「對不起」、「道歉」、「試著去愛」、「享受與你相處的日子」。", "en": "Yellow rose: flowering period from May to June. For friendship, yellow roses represent 'pure friendship' and 'best wishes'. For love, it is 'I'm sorry', 'Apologize', 'Try to love', 'Enjoy the days with you'." 
+      },
+      "card15": { 
+        "tc": "唐菖蒲：花期為7至9月。唐菖蒲代表了「懷念之情」。也表示「愛戀」、「用心」、「長壽」、「康寧」、「福祿」。", 
+        "en": "Gladiolus: The flowering period is from July to September. Gladiolus represents 'feelings of nostalgia'. It also means 'love', 'heart', 'longevity', 'corning' and 'blessing'." 
+      },
+      "card16": { 
+        "tc": "葵百合：開花時間平均為4月到9月。因為花型較大，花朵向上，展現了一種積極向上的生活態度，所以花語是「勝利」、「榮譽」、「富貴」。", 
+        "en": "Asian Lily: The average flowering time is from April to September. Because the flower shape is larger and the flowers are upward, it shows a positive attitude towards life, so the flower language is 'victory', 'honor' and 'wealth'." 
+      },
+      "card17": { 
+        "tc": "鬱金香：花期一般為3至5月。紅色鬱金香的花語是「熱情的愛」、「愛的告白」。黃色鬱金香的花語是「財富」、「沒有希望的愛」、「友誼」、「勝利」、「名聲」、「開朗」。", 
+        "en": "Tulip: The flowering period is generally from March to May. The flower language of red tulips is 'passionate love' and 'confession of love'. The flower language of yellow tulips is 'wealth', 'hopeless love', 'friendship', 'victory', 'fame' and 'cheerful'." 
+      },
+      "card18": { 
+        "tc": "大麗花：在北方地區，花期從5月至11月中旬，在溫度適宜條件下可周年開花不斷，以秋後開花最盛。花語為「大方」、「富麗」、「感激」、「新鮮」、「新穎」、「新意」。", 
+        "en": "Pinnate Dahlia: In the northern region, the flowering period is from May to mid-November. Under suitable temperature conditions, it can bloom continuously throughout the year, and the flowering is the most abundant after autumn. The flower language is 'generous', 'wealthy', 'grateful', 'fresh', 'novel' and 'new'." 
+      }
+    }
+  },
   "EndPage":{
     "title": { "tc": "恭喜完成挑戰！", "en": "Congratulations!" },
     "game": { "tc": "回到主頁", "en": "Back to Homepage" }

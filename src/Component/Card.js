@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './Component.scss';
-import content from './Content.json';
-import { gsap } from 'gsap';
 
 export default function Card(props) {
   return (
