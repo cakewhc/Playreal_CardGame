@@ -12,6 +12,9 @@
     "title": { "tc": "挑戰記憶力！", "en": "Challenge your memory!" },
     "intro": { "tc": "每次翻開兩張卡片，如果圖案相同則配對成功，卡片會保持翻開的狀態。如果圖案不同，牌面將會翻轉朝下，等待下一次翻牌。在翻牌次數用光前，翻開所有的牌吧！", "en": "Turn over two cards each time, if the patterns are the same, the pairing is successful, and the cards will remain open. If the pattern is different, the card will be turned face down. Turn over all the cards before you run out of flips!"},
     "game": { "tc": "遊戲開始", "en": "Start Game" }
-  
+  },
+  "EndPage":{
+    "title": { "tc": "恭喜完成挑戰！", "en": "Congratulations!" },
+    "game": { "tc": "回到主頁", "en": "Back to Homepage" }
   }
 }

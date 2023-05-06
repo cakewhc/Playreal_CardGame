@@ -30,7 +30,7 @@ export default function GamePage(props) {
       arr.push(i);
     }
     setCardArr(shuffle(arr));
-  }, [props.diff]);
+  }, [props.diff, props.show]);
 
   useEffect(() => {
     if (open === -1) {
@@ -43,6 +43,7 @@ export default function GamePage(props) {
         let arr = matchArr;
         arr.push(cardArr[open]);
         setMatchArr(arr);
+        setFinish(finish + 1);
         setOpen(-1);
         setSelect(-1);
       } else {
@@ -54,6 +55,20 @@ export default function GamePage(props) {
     }
     // eslint-disable-next-line
   }, [select, cardArr]);
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (finish === props.diff) {
+        setFinish(0);
+        setCardArr([]);
+        setMatchArr([]);
+        setOpen(-1);
+        setSelect(-1);
+
+        props.showEnd();
+      }
+    }, [1500]);
+  }, [finish, props.diff]);
 
   return (
     <div id="GamePage" className={`${props.show ? '' : 'hide'}`}>
