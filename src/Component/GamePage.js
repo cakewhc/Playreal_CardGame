@@ -84,6 +84,7 @@ export default function GamePage(props) {
         props.showEnd();
       }
     }, [2500]);
+    // eslint-disable-next-line
   }, [finish, props.diff]);
 
   return (
